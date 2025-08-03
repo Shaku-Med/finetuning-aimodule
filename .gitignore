@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# PyTorch & Model Files
+*.pth
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+finetuned_model/checkpoint-*/
+model_cache/
+transformers_cache/
+
+# Keep final model but ignore checkpoints
+!finetuned_model/final_model/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+wandb/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Data files (uncomment if you want to exclude)
+# *.csv
+# *.json
+# *.txt
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# GPU/CUDA
+*.cu
+*.cuh
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# API Keys (if any)
+api_keys.txt
+secrets.json
